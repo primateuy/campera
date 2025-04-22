@@ -1,0 +1,12 @@
+Version- 17.0.0.1 : (11/04/2024)
+	- When using multiple exception lines and adding category and subcategory products the time flow not work and in our module have wrong code for sub-categories fixed the issue for sales and invoice.
+
+Version- 17.0.0.2 : (23/04/2024)
+	- Facing access error from commission_ids and invoice. sale.commission object fixed issue and give groups in the field.
+	- Fixed payment-related error and update method according to base code.
+
+Version- 17.0.0.3 : (07/11/2024)
+	- Added a new field 'based_on' in the 'Sale Commission' view, where the user can select a product or product category and set discount and commission for a particular product or product category. This new field will be displayed when Commission Type is selected as 'Discount Based'.
+
+=> 17.0.0.4 :- Date 16 Jan 2025
+:- We got an error when we used the commission type Partner Based at that time, so I fixed it.
