@@ -1,0 +1,2 @@
+git+https://github.com/GrupoYACCK/pyCFE.git@0.4.5
+pdf2image==1.16.3

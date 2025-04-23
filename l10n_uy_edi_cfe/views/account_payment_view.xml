@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_account_payment_form">
+        <field name="name">account.payment.form.inherit.l10n.uy.edi</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="account.view_account_payment_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_bank_id']" position="after">
+                <field name="uy_is_cfe" invisible="True"/>
+                <field name="uy_document_code" invisible="False"/>
+                <field name="uy_retention_perception_amount" invisible="True" />
+                <field name="uy_cfe_state" invisible="True"/>
+            </xpath>
+            <xpath expr="//button[@name='action_cancel']" position="after">
+                <field name="uy_is_cfe" invisible="True"/>
+                <field name="uy_is_edi_receipt" invisible="True"/>
+                <field name="uy_retention_perception_amount" invisible="True" />
+                <button name="action_uy_sent_receipt" string="Sent Receipt" type="object"
+                        invisible="uy_is_edi_receipt != True or state != 'posted' or uy_cfe_state == 'sent'" />
+
+                <button name="action_uy_refund" string="Refund" type="object"
+                        invisible="uy_is_cfe != True and state != 'posted'" />
+
+
+            </xpath>
+            <xpath expr="//sheet" position="inside">
+                <notebook>
+                  <page id="retention_perception_tab" name="retention_perception_tab" string="Retention/Perception" invisible="uy_is_cfe == False">
+                      <field name="uy_retention_perception_ids" mode="tree" readonly="state != 'draft'">
+                        <tree editable="bottom" string="Retention/Perception Items">
+                            <field name="code_id" />
+                            <field name="rate" />
+                            <field name="base" />
+                            <field name="amount" />
+                        </tree>
+                      </field>
+                  </page>
+                    <!--page id="payment_receipt_tab" name="payment_receipt_tab" string="Payment Receipt">
+                        <field name="uy_payment_receipt_ids" mode="tree" >
+                            <tree editable="bottom" string="Payment Receipt Items">
+                                <field name="move_id" domain="[('partner_id','=',parent.partner_id)]"/>
+                                <field name="amount" />
+                            </tree>
+                        </field>
+
+                    </page-->
+                </notebook>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

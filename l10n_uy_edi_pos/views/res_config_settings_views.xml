@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.l10n.uy.pos</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="point_of_sale.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//block[@id='pos_accounting_section']" position="inside">
+                <setting groups="account.group_account_readonly">
+                    <label string="Anonymous Partner" for="pos_uy_anonymous_id"/>
+                    <i class="fa fa-info-circle me-1" title="This setting is common to all PoS." pos-data-toggle="tooltip"/>
+                    <div class="text-muted">
+                        Add anonymous customer for the invoice
+                    </div>
+                    <field name="pos_uy_anonymous_id" colspan="4" nolabel="1" />
+                </setting>
+                <!--setting groups="account.group_account_readonly">
+                    <label string="Branch Street" for="pos_uy_branch_id"/>
+                    <i class="fa fa-info-circle me-1" title="This setting is common to all PoS." pos-data-toggle="tooltip"/>
+                    <div class="text-muted">
+                        Branch Street
+                    </div>
+                    <field name="pos_uy_branch_id" colspan="4" nolabel="1" />
+                </setting>
+                <setting groups="account.group_account_readonly">
+                    <label string="Branch Code" for="pos_uy_branch_code"/>
+                    <i class="fa fa-info-circle me-1" title="This setting is common to all PoS." pos-data-toggle="tooltip"/>
+                    <div class="text-muted">
+                        Branch Code
+                    </div>
+                    <field name="pos_uy_branch_code" colspan="4" nolabel="1" />
+                </setting-->
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

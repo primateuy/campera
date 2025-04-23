@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="l10n_uy_edi_pos.PartnerDetailsEdit" t-inherit="point_of_sale.PartnerDetailsEdit" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('partner-details-box')]//t[1]" position="after">
+            <div class="partner-detail col">
+                <label class="form-label label" for="city">City</label>
+                <select class="detail form-select" id="city" name="city_id" t-model="changes.city_id" t-att-class="{'border-danger': missingFields.includes('city_id')}">
+                    <option value="">None</option>
+                    <t t-foreach="pos.cities" t-as="city" t-key="city.id">
+                        <option t-if="changes.country_id == city.country_id &#38;&#38; changes.state_id == city.state_id" t-att-value="city.id">
+                            <t t-esc="city.name" />
+                        </option>
+                    </t>
+                </select>
+            </div>
+        </xpath>
+        <xpath expr="//div[hasclass('partner-details-box')]//div[4]" position="after">
+            <div class="partner-detail col">
+                <label class="form-label label" for="uy_doc_type">Document Type</label>
+                <select class="detail form-select" id="uy_doc_type" name="uy_doc_type" t-model="changes.uy_doc_type" t-att-class="{'border-danger': missingFields.includes('uy_doc_type')}">
+                    <option value="">None</option>
+                    <t t-foreach="pos.uy_doc_types" t-as="uy_doc_type" t-key="uy_doc_type[0]">
+                        <option t-att-value="uy_doc_type[0]">
+                            <t t-esc="uy_doc_type[1]" />
+                        </option>
+                    </t>
+                </select>
+            </div>
+        </xpath>
+    </t>
+
+</templates>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_picking_form_inherit" model="ir.ui.view">
+            <field name="name">stock.picking.form</field>
+            <field name="model">stock.picking</field>
+            <field name="inherit_id" ref="stock.view_picking_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='action_cancel']" position="after">
+                    <button name="action_generate_edi_cfe" string="Send eRemito" type="object" class="oe_highlight"
+                            invisible="state != 'done' or uy_edi_id != False"/>
+
+                    <button name="action_generate_edi_cfe" string="Check eRemito" type="object"
+                            invisible="(state != 'done' or uy_edi_id != False) and uy_state != 'to_send'" context="{'uy_check_cfe': True}"/>
+
+                </xpath>
+                <xpath expr="//page[@name='note']" position="after">
+                    <page string="CFE" name="cfe">
+                        <group>
+                            <group>
+                                <field name="uy_state" invisible="True"/>
+                                <field name="uy_edi_cfe_type" readonly="uy_edi_id != False" />
+                            </group>
+                            <group>
+                                <field name="uy_edi_id" invisible="True"/>
+                            </group>
+                        </group>
+                        <group String="CFE Response">
+                            <group>
+                                <field name="uy_edi_cfe_ids" invisible="True"/>
+                                <field name="uy_cfe_serie"/>
+                                <field name="uy_cfe_number"/>
+                                <field name="uy_qr_id"/>
+                                <field name="uy_security_code"/>
+                                <field name="uy_attachment_id"/>
+                            </group>
+                            <group>
+                                <field name="uy_constancy"/>
+                                <field name="uy_constancy_serie"/>
+                                <field name="uy_constancy_to"/>
+                                <field name="uy_constancy_vto"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_picking_internal_search_inherit" model="ir.ui.view">
+            <field name="name">stock.picking.internal.search</field>
+            <field name="model">stock.picking</field>
+            <field name="inherit_id" ref="stock.view_picking_internal_search"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="attributes">
+                    <attribute name="filter_domain">['|', '|', ('name', 'ilike', self), ('origin', 'ilike', self), ('uy_edi_name', 'ilike', self)]</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

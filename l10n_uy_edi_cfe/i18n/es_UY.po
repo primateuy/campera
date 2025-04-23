@@ -1,0 +1,1248 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_uy_edi_cfe
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-20 19:25+0000\n"
+"PO-Revision-Date: 2025-03-20 14:56-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_UY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_move.py:0
+#, python-format
+msgid "%s/%s"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid ""
+"<br/>\n"
+"\t\t            \t<span>Fecha emisor: </span>"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid ""
+"<br/>\n"
+"\t\t            \t<span>IVA al día</span><br/>\n"
+"\t\t            \t<span>Nro CAE: </span>"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid ""
+"<br/>\n"
+"\t\t            \t<span>Puede verificar comprobante en </span> <br/>"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid ""
+"<br/>\n"
+"\t\t            \t<span>Rango: </span>"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid ""
+"<br/>\n"
+"\t\t            \t<span>Serie: </span>"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid "<span>Código de Seguridad: </span>"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_move.py:0
+#, python-format
+msgid "ANNUL"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_move_reversal
+msgid "Account Move Reversal"
+msgstr "Reversión de movimiento de cuenta"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_debit_note
+msgid "Add Debit Note wizard"
+msgstr "Asistente para agregar nota de débito"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_amount
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__amount
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__amount
+msgid "Amount"
+msgstr "Monto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move_line__uy_amount_discount
+msgid "Amount Discount"
+msgstr "Importe de Descuento"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_amount_untaxed
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_amount_untaxed
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_amount_untaxed
+msgid "Amount Untaxed Amount"
+msgstr "Importe no Gravado"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__attachment_id
+msgid "Attachment"
+msgstr "Adjunto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__base
+msgid "Base"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__blocking_level
+msgid "Blocking Level"
+msgstr "Nivel de bloqueo"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,help:l10n_uy_edi_cfe.field_uy_stock_edi_document__blocking_level
+msgid ""
+"Blocks the current operation of the document depending on the error severity:\n"
+"  * Info: the document is not blocked and everything is working as it should.\n"
+"  * Warning: there is an error that doesn't prevent the current Electronic "
+"Invoicing operation to succeed.\n"
+"  * Error: there is an error that blocks the current Electronic Invoicing operation."
+msgstr ""
+"Bloquea la operación actual del documento según la gravedad del error:\n"
+"* Información: El documento no está bloqueado y todo funciona correctamente.\n"
+"* Advertencia: Hay un error que no impide que la facturación electrónica se realice "
+"correctamente.\n"
+"* Error: Hay un error que bloquea la facturación electrónica."
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_branch_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_branch_code
+msgid "Branch Code"
+msgstr "Código de Sucursal"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_move.py:0
+#, python-format
+msgid "CAE the electronic document succeeded.<br/>"
+msgstr "El documento electrónico se ha procesado correctamente.<br/>"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.res_edi_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_picking_form_inherit
+msgid "CFE"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_edi_cfe_ids
+msgid "CFE Documents"
+msgstr "Documentos CFE"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_cfe_hash
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_cfe_hash
+msgid "CFE Hash"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_cfe_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_cfe_id
+msgid "CFE ID"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_edi_name
+msgid "CFE Name"
+msgstr "Nombre CFE"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_cfe_number
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_cfe_number
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_cfe_number
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_cfe_number
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_cfe_number
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_cfe_number
+msgid "CFE Number"
+msgstr "Número CFE"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_edi_cfe_type
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking_type__uy_edi_cfe_type
+msgid "CFE Type"
+msgstr "Tipo CFE"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/res_config_settings.py:0
+#: model:ir.model,name:l10n_uy_edi_cfe.model_uy_cfe_wizard
+#, python-format
+msgid "CFE Wizard"
+msgstr "Asistente de CFE"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "CFE must have Retention/Perception"
+msgstr "CFE debe tener Retención/Percepción"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.actions.server,name:l10n_uy_edi_cfe.sync_auto_send_ir_actions_server
+msgid "CFE: Check PDF"
+msgstr "CFE: Consultar PDF"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.actions.server,name:l10n_uy_edi_cfe.check_purchase_invoices_ir_actions_server
+msgid "CFE: Check Purchase Invoices"
+msgstr "CFE: Consultar facturas de compra"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_form_uy_cfe_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__stock_picking__uy_state__cancelled
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.actions.server,name:l10n_uy_edi_cfe.model_account_move_action_check_cfe_pdf_status
+#: model:ir.actions.server,name:l10n_uy_edi_cfe.model_stock_picking_action_check_cfe_pdf_status
+msgid "Check PDF"
+msgstr "Consultar PDF"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_picking_form_inherit
+msgid "Check eRemito"
+msgstr "Consulta eRemito"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__code_id
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__company_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_company_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_company_id
+msgid "Company Id"
+msgstr "Id de la empresa"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__account_edi_document__uy_document_state__ae
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__uy_stock_edi_document__uy_document_state__ae
+msgid "Comprobante aceptado"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__account_edi_document__uy_document_state__be
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__uy_stock_edi_document__uy_document_state__be
+msgid "Comprobante rechazado"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.res_edi_config_settings_view_form
+msgid "Configure Wizard"
+msgstr "Asistente de configuración"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_form_uy_cfe_wizard
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_constancy
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_constancy
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_constancy
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_constancy
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_constancy
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_constancy
+msgid "Constancy"
+msgstr "Constancia"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_constancy_from
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_constancy_from
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_constancy_from
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_constancy_from
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_constancy_from
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_constancy_from
+msgid "Constancy From"
+msgstr "Constancia Desde"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_constancy_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_constancy_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_constancy_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_constancy_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_constancy_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_constancy_serie
+msgid "Constancy Serie"
+msgstr "Serie Constancia"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_constancy_to
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_constancy_to
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_constancy_to
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_constancy_to
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_constancy_to
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_constancy_to
+msgid "Constancy To"
+msgstr "Constancia hasta"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_constancy_vto
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_constancy_vto
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_constancy_vto
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_constancy_vto
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_constancy_vto
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_constancy_vto
+msgid "Constancy Vto"
+msgstr "Constancia Vto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__create_uid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__create_uid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__create_uid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__create_date
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__create_date
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__create_date
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_journal__uy_credit_note_id
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid "Credit Note"
+msgstr "Nota de crédito"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_res_currency
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_currency_rate
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_currency_rate
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_currency_rate
+msgid "Currency Rate"
+msgstr "Tipo de Cambio"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_journal__uy_dedit_note_id
+msgid "Debit Note"
+msgstr "Nota de Débito"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__display_name
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__display_name
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__display_name
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_attachment_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_attachment_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_attachment_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_attachment_id
+msgid "Document"
+msgstr "Documento"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_document_state
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_document_state
+msgid "Document Status"
+msgstr "Estado del Documento"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_eremito_date
+msgid "E-Remito Date"
+msgstr "Feche de E-Remito"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_res_cfe_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_res_cfe_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_res_cfe_id
+msgid "EDI Response ID"
+msgstr "EDI Id de Respuesta"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_edi_format
+msgid "EDI format"
+msgstr "Formato EDI"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__edi_content
+msgid "Edi Content"
+msgstr "Contenido de EDI"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__edi_format_id
+msgid "Edi Format"
+msgstr "Formato EDI"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_edi_document
+msgid "Electronic Document for an account.move"
+msgstr "Documento electrónico para un account.move"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.res_edi_config_settings_view_form
+msgid "Electronic Invoice Provider"
+msgstr "Proveedor de Facturas Electrónicas"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_mail_compose_message
+msgid "Email composition wizard"
+msgstr "Asistente de redacción de correo electrónico"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__stock_picking__uy_edi_cfe_type__2
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__stock_picking_type__uy_edi_cfe_type__2
+msgid "Entre establecimientos de la misma empresa"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__error
+msgid "Error"
+msgstr "Error"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_error_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_error_code
+msgid "Error Code"
+msgstr "Código de Error"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#, python-format
+msgid "Error code: %s <br/>Error: %s"
+msgstr "Código de error: %s <br/>Error: %s"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_move.py:0
+#, python-format
+msgid "Error. %s"
+msgstr "Error. %s"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#: code:addons/l10n_uy_edi_cfe/models/account_move.py:0
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#: code:addons/l10n_uy_edi_cfe/models/uy_stock_edi_document.py:0
+#, python-format
+msgid "Error.<br/> %s"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#, python-format
+msgid "Error: %s"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__edi_format_name
+msgid "Format Name"
+msgstr "Nombre del Formato"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_gross_amount
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_gross_amount
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_gross_amount
+msgid "Gross Amount"
+msgstr "Importe Bruto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__move_id
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move_line__uy_invoice_indicator
+msgid "Invoice Indicator"
+msgstr "Indicador de factura"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_document_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_journal__uy_document_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_document_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_document_code
+msgid "Invoice Type Code"
+msgstr "Código de tipo de Factura"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_invoice_url
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_invoice_url
+msgid "Invoice Url"
+msgstr "URL de factura"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_is_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_is_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_is_cfe
+msgid "Is CFE"
+msgstr "Es CFE"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_journal__uy_is_edi_document
+msgid "Is EDI Document"
+msgstr "Es un documento EDI"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_journal__uy_is_edi_receipt
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_is_edi_receipt
+msgid "Is Receipt"
+msgstr "Es recibo"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_journal
+msgid "Journal"
+msgstr "Diario"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__write_uid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__write_uid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__write_uid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__write_date
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__write_date
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__write_date
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__move_id
+msgid "Move"
+msgstr "Asiento"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__name
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_uy_edi_send_cfe
+msgid "No description"
+msgstr "Sin descripción"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_number
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_number
+msgid "Number"
+msgstr "Número"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "Only CFE payments can be refunded"
+msgstr "Sólo se podrán reembolsar los pagos de CFE"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "Only receipts can be sent"
+msgstr "Solo se pueden enviar recibos"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__payment_id
+msgid "Originator Payment"
+msgstr "Pago del originador"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_password
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_password
+msgid "Password/Token"
+msgstr "Contraseña/Token"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_payment_receipt__payment_id
+msgid "Payment"
+msgstr "Pago"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment_term__uy_payment_method
+msgid "Payment Method"
+msgstr "Método de pago"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_payment_receipt_total
+msgid "Payment Receipt Total"
+msgstr "Total del Recibo de Pago"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_payment_receipt_ids
+msgid "Payment Receipts"
+msgstr "Recibos de Pago"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_payment_term
+msgid "Payment Terms"
+msgstr "Términos de pago"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_stock_picking_type
+msgid "Picking Type"
+msgstr "Tipo de recolección"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#, python-format
+msgid "Please configure the server Biller"
+msgstr "Por favor configure el servidor Biller"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#, python-format
+msgid "Please fill the CFE Type"
+msgstr "Por favor llene el Tipo CFE"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#, python-format
+msgid "Please fill the Partner Address"
+msgstr "Por favor, rellene la Dirección del Cliente"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#, python-format
+msgid "Please fill the Partner City"
+msgstr "Por favor, rellene la ciudad del Cliente"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#, python-format
+msgid "Please fill the Partner Document Number"
+msgstr "Por favor, rellene el número de documento del Cliente"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#, python-format
+msgid "Please fill the Partner Document Type"
+msgstr "Por favor, rellene el tipo de Documento del Cliente"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#, python-format
+msgid "Please fill the Partner State"
+msgstr "Por favor, rellene el Dapartamento del Cliente"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#, python-format
+msgid "Please fill the partner"
+msgstr "Por favor rellene el formulario de Cliente"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_move_form
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_journal__uy_efactura_print_mode
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_efactura_print_mode
+msgid "Print Mode"
+msgstr "Modo de Impresión"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_print
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_print
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_print
+msgid "Print PDF"
+msgstr "Imprimir PDF"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_efactura_print_mode
+msgid "Print mode"
+msgstr "Modo de Impresión"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "Unidad de medida del producto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_qr_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_qr_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_qr_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_qr_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_qr_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_qr_id
+msgid "Qr Code"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_qr_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_qr_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_qr_code
+msgid "Qr Code Data"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_retention_perception__rate
+msgid "Rate (%)"
+msgstr "Tasa (%)"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_account_payment_form
+msgid "Refund"
+msgstr "Reembolso"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_resolution
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_resolution
+msgid "Resolution"
+msgstr "Resolución"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_retention_perception_ids
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_account_payment_form
+msgid "Retention/Perception"
+msgstr "Retención/Percepción"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_retention_perception_amount
+msgid "Retention/Perception Amount"
+msgstr "Monto de retención/percepción"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_account_payment_form
+msgid "Retention/Perception Items"
+msgstr "Elementos de Retención/Percepción"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_reversed_entry_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_reversed_entry_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_reversed_entry_id
+msgid "Reversal of Credit/Debit Note"
+msgstr "Reversión de nota de Crédito/Débito"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_clause
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_clause
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_clause
+msgid "Sales Clause"
+msgstr "Cláusula de venta"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_security_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_security_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_security_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_security_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_security_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_security_code
+msgid "Security Code"
+msgstr "Código de Seguridad"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_send_date
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_send_date
+msgid "Send Date"
+msgstr "Fecha de Envío"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_send_number
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_send_number
+msgid "Send Number"
+msgstr "Número de  Envio"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_picking_form_inherit
+msgid "Send eRemito"
+msgstr "Enviar eRemito"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#: code:addons/l10n_uy_edi_cfe/models/account_move.py:0
+#: code:addons/l10n_uy_edi_cfe/models/stock_picking.py:0
+#: code:addons/l10n_uy_edi_cfe/models/uy_stock_edi_document.py:0
+#, python-format
+msgid "Sending the electronic document succeeded.<br/>"
+msgstr "El envío del documento electrónico se realizó correctamente.<br/>"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#, python-format
+msgid "Sending the electronic document succeeded.<br/>%s"
+msgstr "El envío del documento electrónico se realizó correctamente.<br/>%s"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#, python-format
+msgid ""
+"Sending the electronic document succeeded.<br/><a ref=\"%s\" title=\"\" "
+"target=\"_blank\">Show Invoice</a>"
+msgstr ""
+"El envío del documento electrónico se realizó correctamente.<br/><a ref=\"%s\" "
+"title=\"\" target=\"_blank\">Mostrar factura</a>"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__stock_picking__uy_state__sent
+msgid "Sent"
+msgstr "Enviado"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_account_payment_form
+msgid "Sent Receipt"
+msgstr "Enviar Recibo"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_cfe_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_cfe_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_cfe_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_cfe_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_cfe_serie
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_cfe_serie
+msgid "Serie"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_journal__uy_server
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_server
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_server
+msgid "Server"
+msgstr "Servidor"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_server_url
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_server_url
+msgid "Server URL"
+msgstr "URL del servidor"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__state
+msgid "State"
+msgstr "Estado"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__picking_id
+msgid "Stock Picking"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_sync_mode
+msgid "Sync Mode"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_account_tax
+msgid "Tax"
+msgstr "Impuesto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_tax_basic
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_tax_basic
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_tax_basic
+msgid "Tax Basic Amount"
+msgstr "Monto básico del impuesto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_tax_basic_base
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_tax_basic_base
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_tax_basic_base
+msgid "Tax Basic Base"
+msgstr "Base imponible básica"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_tax_basic_rate
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_tax_basic_rate
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_tax_basic_rate
+msgid "Tax Basic Rate"
+msgstr "Tasa básica del impuesto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_tax_min
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_tax_min
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_tax_min
+msgid "Tax Minimun Amount"
+msgstr "Importe mínimo del impuesto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_tax_min_base
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_tax_min_base
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_tax_min_base
+msgid "Tax Minimun Base"
+msgstr "Base Mínima Impositiva"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_tax_min_rate
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_tax_min_rate
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_tax_min_rate
+msgid "Tax Minimun Rate"
+msgstr "Tasa mínima de impuesto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_tax__uy_tax_type
+msgid "Tax Type"
+msgstr "Tipo de impuesto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__account_move__uy_gross_amount__1
+msgid "Taxes included"
+msgstr "Impuestos incluidos"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.constraint,message:l10n_uy_edi_cfe.constraint_uy_retention_perception_table_code_uniq
+msgid "The code of the table must be unique by table code !"
+msgstr "¡El código de la tabla debe ser único por código de tabla!"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_move.py:0
+#, python-format
+msgid "The document cannot be canceled, you must issue a credit note"
+msgstr "El documento no se puede cancelar, se debe emitir una nota de crédito"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_move.py:0
+#, python-format
+msgid "The electronic document succeeded."
+msgstr "El documento electrónico tuvo éxito."
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,help:l10n_uy_edi_cfe.field_uy_stock_edi_document__attachment_id
+msgid ""
+"The file generated by edi_format_id when the invoice is posted (and this document "
+"is processed)."
+msgstr ""
+"El archivo generado por edi_format_id cuando se registra la factura (y se procesa "
+"este documento)."
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "The invoice date must be greater than the due date."
+msgstr "La fecha de la factura debe ser mayor a la fecha de vencimiento."
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "The invoice must be posted"
+msgstr "La factura debe ser procesada"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "The invoice must be sent before it can be reconciled"
+msgstr "La factura debe enviarse a la DGI antes de poder conciliarla."
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,help:l10n_uy_edi_cfe.field_uy_retention_perception__payment_id
+msgid "The payment that created this entry"
+msgstr "El pago que creó esta entrada"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "The receipt must be reconciled"
+msgstr "El recibo debe ser conciliado"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "The receipt must have residual amount"
+msgstr "El recibo no debe tener importe residual"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#, python-format
+msgid "The server password is required"
+msgstr "Se requiere la contraseña del servidor"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#, python-format
+msgid "The server url is required"
+msgstr "La URL del servidor es obligatoria"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#, python-format
+msgid "The server username is required"
+msgstr "Se requiere el nombre de usuario del servidor"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,help:l10n_uy_edi_cfe.field_uy_stock_edi_document__error
+msgid "The text of the last error that happened during Electronic Invoice operation."
+msgstr ""
+"El texto del último error que ocurrió durante la operación de Factura Electrónica."
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_format.py:0
+#, python-format
+msgid "The type of server is required"
+msgstr "Se requiere el tipo de servidor"
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_payment.py:0
+#, python-format
+msgid "This payment has already been refunded"
+msgstr "Este pago ya ha sido reembolsado"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__stock_picking__uy_state__to_cancel
+msgid "To Cancel"
+msgstr "Para cancelar"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__stock_picking__uy_state__to_send
+msgid "To Send"
+msgstr "Para enviar"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir "
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_transport
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_transport
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_transport
+msgid "Transport"
+msgstr "Transporte"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_cfe_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_cfe_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_cfe_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_edi_id
+msgid "UY EDI"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#. odoo-python
+#: code:addons/l10n_uy_edi_cfe/models/account_edi_document.py:0
+#, python-format
+msgid "UY EDI Sequence"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_amount_unafected
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_amount_unafected
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_amount_unafected
+msgid "Unafected"
+msgstr "Inafecto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__account_move__uy_gross_amount__0
+msgid "Untaxed"
+msgstr "Libre de Impuestos"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__account_move__uy_gross_amount__2
+msgid "Untaxed e-Boleta"
+msgstr "e-Boleta Sin Impuesto"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_url_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_edi_document__uy_url_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_url_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_url_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_res_cfe_id
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_url_code
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_stock_edi_document__uy_url_code
+msgid "Url Code"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_currency__uy_currency_code
+msgid "Uruguayan Currency Code"
+msgstr "Código de la moneda uruguaya"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_uy_retention_perception
+msgid "Uruguayan Retention Perception"
+msgstr "Percepción de retención uruguaya"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_account_journal_form
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.view_company_form
+msgid "Uruguayan Settings"
+msgstr "Ajustes Uruguayos"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_uy_stock_edi_document
+msgid "Uruguayan Stock EDI Document"
+msgstr "Documento EDI de acciones uruguayas"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uom_uom__uy_unit_code
+msgid "Uruguayan Unit Code"
+msgstr "Código de Unidad Uruguaya"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_username
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_username
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_uuid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_uuid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_uuid
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_uuid
+msgid "Uuid Uruguayan"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model,name:l10n_uy_edi_cfe.model_uy_payment_receipt
+msgid "Uy Payment Receipt"
+msgstr "Recibo de pago"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_print
+msgid "Uy Print"
+msgstr "Imprimir"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_stock_picking__uy_state
+msgid "Uy State"
+msgstr "Estado"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid "Vendor Bill"
+msgstr "Factura del proveedor"
+
+#. module: l10n_uy_edi_cfe
+#: model_terms:ir.ui.view,arch_db:l10n_uy_edi_cfe.report_invoice_document
+msgid "Vendor Credit Note"
+msgstr "Nota de crédito del proveedor"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__stock_picking__uy_edi_cfe_type__1
+#: model:ir.model.fields.selection,name:l10n_uy_edi_cfe.selection__stock_picking_type__uy_edi_cfe_type__1
+msgid "Venta"
+msgstr ""
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_res_company__uy_verification_url
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_uy_cfe_wizard__uy_verification_url
+msgid "Verification Url"
+msgstr "URL de verificación"
+
+#. module: l10n_uy_edi_cfe
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_bank_statement_line__uy_sales_mode
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_move__uy_sales_mode
+#: model:ir.model.fields,field_description:l10n_uy_edi_cfe.field_account_payment__uy_sales_mode
+msgid "sales Mode"
+msgstr "Modo de venta"
